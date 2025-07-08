@@ -35,4 +35,3 @@ fn next_u32<'a, I: Iterator<Item = &'a str>>(input: &mut I) -> u32 {
 fn next_str<'a, I: Iterator<Item = &'a str>>(input: &mut I) -> &'a str {
     input.next().unwrap()
 }
-
